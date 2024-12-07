@@ -94,9 +94,13 @@
             @csrf
             <label for="title">Title</label>
             <input type="text" id="title" name="name" placeholder="Enter name" required>
-            @error('title')
-                <div class="error">{{ $message }}</div>
-            @enderror
+            <label for="title">Title</label>
+            <input type="text" id="title" name="phone" placeholder="Enter phone" required>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="address" placeholder="Enter address" required>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="years_of_experience" placeholder="years_of_experience" required>
+
 
            
             <button type="submit">Create Blog</button>
